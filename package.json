@@ -1,15 +1,25 @@
 {
-  "name": "web-components",
+  "name": "@jfdev/webcomps",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-lib": "vue-cli-service build --target lib --name webcomps ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
+  "main": "./dist/webcomps.common.js",
+  "description": "Simple Webcomps Button",
   "dependencies": {
     "vue": "^2.5.22"
   },
+  "author": {
+    "name": "John Galindez"
+  },
+  "files": [
+    "dist/*",
+    "*.json",
+    "*.js"
+  ],
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
     "@vue/cli-plugin-eslint": "^3.4.0",

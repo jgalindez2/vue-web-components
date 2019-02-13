@@ -1,0 +1,40 @@
+{
+  "_from": "@jfdev/webcomps-button",
+  "_id": "@jfdev/webcomps-button@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-nCg0bhHNzcOHJbH0tdpA68VdYwbNoJ2hL5iPbgpnwQmzVvRlaEwHLysi0vYDEruY4VTAQgws2S0fFrVsAWOgGQ==",
+  "_location": "/@jfdev/webcomps-button",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@jfdev/webcomps-button",
+    "name": "@jfdev/webcomps-button",
+    "escapedName": "@jfdev%2fwebcomps-button",
+    "scope": "@jfdev",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@jfdev/webcomps-button/-/webcomps-button-1.0.0.tgz",
+  "_shasum": "1380f527f4ae7eb7ad94c8a6bc1d7c3a99c2b352",
+  "_spec": "@jfdev/webcomps-button",
+  "_where": "/Users/jgalindez/workspace/test-jfdev-components",
+  "author": {
+    "name": "John Galindez"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Simple Webcomps Button",
+  "license": "ISC",
+  "main": "./src/Button.vue",
+  "name": "@jfdev/webcomps-button",
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name webcomps-button ./src/index.js"
+  },
+  "version": "1.0.1"
+}

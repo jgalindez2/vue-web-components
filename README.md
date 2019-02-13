@@ -1,4 +1,8 @@
-# web-components
+# JDev Web Components
+
+This is a simple project to test the creation of vue plugins.
+
+More documentation soon.
 
 ## Project setup
 ```
