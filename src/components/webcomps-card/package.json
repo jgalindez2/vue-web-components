@@ -1,0 +1,16 @@
+{
+  "name": "@jfdev/webcomps-card",
+  "version": "0.1.0",
+  "description": "Simple card custom components",
+  "main": "./dist/webcomps-card.common.js",
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name webcomps-card ./src/index.js"
+  },
+  "files": [
+    "dist/*",
+    "README.md",
+    "*.js"
+  ],
+  "author": "John Galindez",
+  "license": "ISC"
+}

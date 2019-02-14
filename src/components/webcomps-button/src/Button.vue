@@ -23,7 +23,7 @@ export default {
       type: String,
       default: 'normal',
       validator(prop) {
-        return ['small', 'normal', 'block'].indexOf(prop) > -1
+        return ['small', 'block'].indexOf(prop) > -1
       }
     },
     type: {

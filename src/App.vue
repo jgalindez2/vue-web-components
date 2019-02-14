@@ -1,24 +1,19 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <CButton></CButton>
+    <WebcompsButton>Hola</WebcompsButton>
+    <WebcompsCard/>
   </div>
 </template>
 
 <script>
-import CButton from './components/webcomps-button/src/'
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'app',
-  components: {
-    HelloWorld,
-    CButton
-  }
+  name: 'app'
 }
 </script>
 
+<style src="@jfdev/webcomps-button/dist/webcomps-button.css"></style>
+<style src="@jfdev/webcomps-card/dist/webcomps-card.css"></style>
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

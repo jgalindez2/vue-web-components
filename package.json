@@ -10,6 +10,8 @@
   "main": "./dist/webcomps.common.js",
   "description": "Simple Webcomps Button",
   "dependencies": {
+    "@jfdev/webcomps-button": "file:jfdev-webcomps-button-1.0.1.tgz",
+    "@jfdev/webcomps-card": "file:jfdev-webcomps-card-0.1.0.tgz",
     "vue": "^2.5.22"
   },
   "author": {

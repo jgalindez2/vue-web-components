@@ -20,6 +20,11 @@
     "#USER",
     "/"
   ],
+  "files": [
+    "dist/*",
+    "README.md",
+    "*.js"
+  ],
   "_resolved": "https://registry.npmjs.org/@jfdev/webcomps-button/-/webcomps-button-1.0.0.tgz",
   "_shasum": "1380f527f4ae7eb7ad94c8a6bc1d7c3a99c2b352",
   "_spec": "@jfdev/webcomps-button",
@@ -31,10 +36,10 @@
   "deprecated": false,
   "description": "Simple Webcomps Button",
   "license": "ISC",
-  "main": "./src/Button.vue",
+  "main": "./dist/webcomps-button.common.js",
   "name": "@jfdev/webcomps-button",
   "scripts": {
     "build": "vue-cli-service build --target lib --name webcomps-button ./src/index.js"
   },
-  "version": "1.0.1"
+  "version": "0.1.1"
 }
